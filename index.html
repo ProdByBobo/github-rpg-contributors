@@ -16,18 +16,16 @@
       margin: var(--ddd-spacing-2);
     }
     github-rpg-contributors {
-      margin: var(--ddd-spacing-2);
+      margin: var(--ddd-spacing-3);
       border: var(--ddd-border-md);
       border-radius: var(--ddd-radius-lg);
     }
-    github-rpg-contributors:hover {
-      box-shadow: var(--ddd-boxShadow-sm);
+    h1 {
+      margin: var(--ddd-spacing-2);
+      font-size: var(--ddd-font-size-2xl);
+      text-align: center;
     }
-    #example {
-      --github-rpg-contributors-font-size: var(--ddd-font-size-l);
-      background-color: var(--ddd-accent-2);
-      color: var(--ddd-primary-17);
-    }
+
 
   </style>
   <title>github-rpg-contributors</title>
@@ -36,13 +34,10 @@
 <body>
   <div id="demo">
     
-    <h1>github-rpg-contributors</h1>
+    <h1>Github RPG Contributors</h1>
     <github-rpg-contributors org="haxtheweb" repo="webcomponents" limit="24"></github-rpg-contributors>
+    <github-rpg-contributors org="ProdByBobo" repo="rpg-character" limit="4"></github-rpg-contributors>
   <script type="module" src="./github-rpg-contributors.js"></script>
-  <!-- Take HAX, the Web and you further down the rabbit hole -->
-   <!-- <div id="RPGguy">
-  <rpg-character  seed="${item.login}"></rpg-character>
-   </div> -->
   </div>
 </body>
 </html>

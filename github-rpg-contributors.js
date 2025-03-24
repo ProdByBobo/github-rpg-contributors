@@ -1,4 +1,7 @@
-
+/**
+ * Copyright 2025 ProdByBobo
+ * @license Apache-2.0, see LICENSE for full text.
+ */
 /**
  * `github-rpg-contributors`
  * 
