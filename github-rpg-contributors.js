@@ -109,7 +109,7 @@ getData() {
   render() {
     return html`
     <div class="header">
-      <h3>GitHub Repo: <a href="https://github.com/${this.org}/${this.repo}">${this.org}/${this.repo}</a></h3>
+      <h3>GitHub Repo: <a href="https://github.com/${this.org}/${this.repo}">github.com/${this.org}/${this.repo}</a></h3>
     </div>
     <slot></slot>
     <div class="rpg-wrapper">
